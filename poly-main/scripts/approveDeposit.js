@@ -11,7 +11,7 @@ require('dotenv').config();
 
 const tokenAddress = process.env.TARGET_ADDRESS; // Extract token address from .env
 const tokenABI = tokenJSON.abi;
-const walletAddress = "0x5dd1A09bae93b59a90E2C9B7c95a21fb8162e23E";
+const walletAddress = "0x5898bfED50948cAD4775c394Fda4285db097B74F";
 
 const fxRootContractABI = require("../fxRootContractABI.json");
 const fxERC21RootAddress = "0xF9bc4a80464E48369303196645e876c8C7D972de";
